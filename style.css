@@ -284,6 +284,10 @@ header.sticky {
   transition: all 0.5s ease;
   cursor: pointer;
 }
+.row:hover {
+  border: 2px solid var(--main-color);
+  transform: translateY(-5px) scale(1.03);
+}
 .row img {
   height: auto;
   width: 100%;
@@ -328,7 +332,7 @@ form .send-btn {
   font-size: 15px;
   font-weight: 600;
   transition: all 0.5s ease;
-  width: 30%;
+  width: 60%;
 }
 form .send-btn:hover {
   background: transparent;
@@ -466,5 +470,8 @@ form .send-btn:hover {
   }
   .hero {
     background-image: url(bg1.png);
+  }
+  .logo{
+    font-size: 1.5rem;
   }
 }
